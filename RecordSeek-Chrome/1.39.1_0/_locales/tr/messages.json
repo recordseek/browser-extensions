@@ -1,0 +1,38 @@
+{
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Maalesef bu görüntü Pinlenemez"
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "İnternette bulduğunuz şeyleri Pinleyin"
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Pin It Düğmesi"
+   },
+   "menuAction": {
+      "description": "Appears in the right-click-to-pin menu item",
+      "message": "Pinleyin"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Pin It düğmelerinin üzerine gelindiğinde beliren seçenekleri gizleyin"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Pin it düğmesi seçenekleri"
+   },
+   "welcomeBody": {
+      "description": "Body of the pop-up welcome message",
+      "message": "İnternette gezinirken farenizi görüntülerin üzerine getirdiğinizde Pin it düğmelerini görürsünüz. Düğmeleri görmek istemiyorsanız bu özelliği kapatabilirsiniz. Nasıl yapılacağını öğrenmek için bu bildirime tıklayın."
+   },
+   "welcomeLink": {
+      "description": "The link (currently a help article) opened by clicking on the pop-up welcome message",
+      "message": "https://help.pinterest.com/articles/add-pin-it-button-your-browser#Web?source=chrome_pib_education"
+   },
+   "welcomeTitle": {
+      "description": "Title of the pop-up welcome message",
+      "message": "Chrome için Pin It düğmesindeki yenilikler"
+   }
+}

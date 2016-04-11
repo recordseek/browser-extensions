@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Dovy Paukstys</string>
+	<key>Builder Version</key>
+	<string>10601.5.17.4</string>
+	<key>CFBundleDisplayName</key>
+	<string>RecordSeek</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.recordseek.extension</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>5</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>toolbarClick</string>
+				<key>Identifier</key>
+				<string>toolbarId</string>
+				<key>Image</key>
+				<string>icon_toolbar.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>RecordSeek</string>
+				<key>Popover</key>
+				<string>pop</string>
+				<key>Tool Tip</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>inject.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Turn any website into a source citation</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://recordseek.com/</string>
+</dict>
+</plist>

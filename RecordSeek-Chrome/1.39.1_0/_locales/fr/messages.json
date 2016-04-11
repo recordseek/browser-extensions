@@ -1,0 +1,38 @@
+{
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Désolé, cette image ne peut pas être épinglée"
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Épinglez ce que vous trouvez sur le Web"
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Bouton Pin It"
+   },
+   "menuAction": {
+      "description": "Appears in the right-click-to-pin menu item",
+      "message": "Ajouter une épingle"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Désactiver les boutons Pin It par survol"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Options pour le bouton Pin it"
+   },
+   "welcomeBody": {
+      "description": "Body of the pop-up welcome message",
+      "message": "Des boutons Pin it apparaissent lorsque vous naviguez sur le Web et survolez des images. Cliquez sur cette notification pour lire le guide pas à pas."
+   },
+   "welcomeLink": {
+      "description": "The link (currently a help article) opened by clicking on the pop-up welcome message",
+      "message": "https://help.pinterest.com/articles/add-pin-it-button-your-browser#Web?source=chrome_pib_education"
+   },
+   "welcomeTitle": {
+      "description": "Title of the pop-up welcome message",
+      "message": "Nouveautés du bouton Pin it pour Chrome"
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Lo sentimos, pero no se puede añadir Pin de esa imagen."
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Añade Pines de cosas que encuentras en Internet."
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Botón \"Pin It\""
+   },
+   "menuAction": {
+      "description": "Appears in the right-click-to-pin menu item",
+      "message": "Añadir Pin"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Ocultar botones Pin It activos"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Opciones del botón Pin It"
+   },
+   "welcomeBody": {
+      "description": "Body of the pop-up welcome message",
+      "message": "Al navegar en Internet, verás botones Pin it al pasar el ratón sobre las imágenes. Si no quieres verlos, puedes desactivarlos. Haz clic en esta notificación para obtener información sobre cómo hacerlo."
+   },
+   "welcomeLink": {
+      "description": "The link (currently a help article) opened by clicking on the pop-up welcome message",
+      "message": "https://help.pinterest.com/articles/add-pin-it-button-your-browser#Web?source=chrome_pib_education"
+   },
+   "welcomeTitle": {
+      "description": "Title of the pop-up welcome message",
+      "message": "Novedades sobre el botón Pin it para Chrome"
+   }
+}

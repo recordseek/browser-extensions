@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>RecordSeek Options</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        color: #211922;
+        text-align: center;
+        font-family: 'Helvetica Neue', sans-serif;
+      }
+      h1 {
+        padding: 15px 20px;
+        border-bottom: 1px solid #eee;
+        font-size: 20px;
+        margin-bottom: 0;
+      }
+
+      p {
+        text-align: left;
+        line-height: 20px;
+        margin-top: 0;
+        font-size: 16px;
+        padding: 20px 20px 0 20px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1 id="welcomeTitle"></h1>
+    <p style="text-align:center;"><a href="welcomeLink" id="welcomeBody"></a></p>
+    <script type="text/javascript">
+      var d = document;
+      var id = ['welcomeTitle', 'welcomeBody'];
+      for (var i = 0; i < id.length; i = i + 1) {
+        if (localStorage[id[i]]) {
+          var el = d.getElementById(id[i]);
+          if (el) {
+            el.innerHTML = localStorage[id[i]];
+          }
+        }
+      }
+      var href = ['welcomeLink'];
+      d.getElementById('welcomeBody').href = localStorage['welcomeLink'];
+    </script>
+  </body>
+</html>

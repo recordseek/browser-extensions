@@ -1,0 +1,38 @@
+{
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Это изображение нельзя приколоть"
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Прикалывайте найденный в Интернете контент"
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Кнопка Pin It"
+   },
+   "menuAction": {
+      "description": "Appears in the right-click-to-pin menu item",
+      "message": "Приколоть Пин"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Скрыть всплывающие кнопки Pin It"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Настройки кнопки Pin it"
+   },
+   "welcomeBody": {
+      "description": "Body of the pop-up welcome message",
+      "message": "Во время просмотра веб-сайтов вы можете заметить кнопку Pin it, появляющуюся при наведении указателя мыши на изображение. Если это мешает, вы можете отключить ее. Нажмите на это уведомление, чтобы понять, как это сделать."
+   },
+   "welcomeLink": {
+      "description": "The link (currently a help article) opened by clicking on the pop-up welcome message",
+      "message": "https://help.pinterest.com/articles/add-pin-it-button-your-browser#Web?source=chrome_pib_education"
+   },
+   "welcomeTitle": {
+      "description": "Title of the pop-up welcome message",
+      "message": "Новые возможности кнопки Pin It для Chrome"
+   }
+}

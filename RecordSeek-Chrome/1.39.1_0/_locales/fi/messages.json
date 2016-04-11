@@ -1,0 +1,38 @@
+{
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Hups! Tätä kuvaa ei voi lisätä"
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Tee Pin-lisäyksiä netistä"
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Lisäyspainike"
+   },
+   "menuAction": {
+      "description": "Appears in the right-click-to-pin menu item",
+      "message": "Lisää"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Piilota osoitettaessa näytettävät Pin it -painikkeet"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Pin it -painikkeen asetukset"
+   },
+   "welcomeBody": {
+      "description": "Body of the pop-up welcome message",
+      "message": "Selatessasi nettiä näet Pin it -painikkeen, kun siirrät hiiren osoittimen kuvan päälle. Jos et halua nähdä painikkeita, voit poistaa ne käytöstä. Klikkaa ilmoitusta, niin saat lisätietoja."
+   },
+   "welcomeLink": {
+      "description": "The link (currently a help article) opened by clicking on the pop-up welcome message",
+      "message": "https://help.pinterest.com/articles/add-pin-it-button-your-browser#Web?source=chrome_pib_education"
+   },
+   "welcomeTitle": {
+      "description": "Title of the pop-up welcome message",
+      "message": "Uusi Chromen Pin it -lisäyspainiketoiminto"
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Du kannst Dinge pinnen, die du im Internet findest"
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Du kannst Dinge pinnen, die du im Internet findest"
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "„Pin it“-Button"
+   },
+   "menuAction": {
+      "description": "Appears in the right-click-to-pin menu item",
+      "message": "Pinnen"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "„Pin it“-Mouseover-Buttons ausblenden"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Optionen für den „Pin it“-Button"
+   },
+   "welcomeBody": {
+      "description": "Body of the pop-up welcome message",
+      "message": "Beim Stöbern im Internet werden dir die „Pin it“-Buttons auffallen, die du siehst, wenn du mit deinem Maus-Cursor über Bilder fährst. Falls dich das stört, kannst du sie ganz einfach deaktivieren. Wenn du auf diese Benachrichtigung klickst, erhältst du weitere Infos."
+   },
+   "welcomeLink": {
+      "description": "The link (currently a help article) opened by clicking on the pop-up welcome message",
+      "message": "https://help.pinterest.com/articles/add-pin-it-button-your-browser#Web?source=chrome_pib_education"
+   },
+   "welcomeTitle": {
+      "description": "Title of the pop-up welcome message",
+      "message": "Aktuelles zum „Pin it“-Button für Chrome-Nutzer"
+   }
+}

@@ -1,0 +1,4 @@
+<script language="JavaScript">
+	var theirWindow = external.menuArguments;
+	theirWindow.open('https://pinterest.com/pin/create/extension/?media=' + encodeURIComponent(theirWindow.event.srcElement.src), "pin" + (new Date).getTime(), 'status=no,resizable=yes,scrollbars=yes,personalbar=no,directories=no,location=no,toolbar=no,menubar=no,width=632,height=270,left=0,top=0');
+</script>

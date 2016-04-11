@@ -1,0 +1,38 @@
+{
+  "extName": {
+    "message": "Pin It-knappen",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "Legg til Pins for ting du finner på nettet",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "menuAction": {
+    "message": "Legg til en Pin",
+    "description": "Appears in the right-click-to-pin menu item"
+  },
+  "welcomeTitle": {
+    "message": "Nyhet for Pin It-knappen til Chrome",
+    "description": "Title of the pop-up welcome message"
+  },
+  "welcomeBody": {
+    "message": "Når du surfer på nettet, dukker Pin It-knappen opp dersom du peker på et bilde med musen. Hvis du ikke er interessert, kan du slå funksjonen av. Klikk på denne meldingen for å se hvordan.",
+    "description": "Body of the pop-up welcome message"
+  },
+  "welcomeLink": {
+    "message": "https://help.pinterest.com/articles/add-pin-it-button-your-browser#Web?source=chrome_pib_education",
+    "description": "The link (currently a help article) opened by clicking on the pop-up welcome message"
+  },
+  "errorPin": {
+    "message": "Beklager, det kan ikke legges til Pin for dette bildet",
+    "description": "The error message seen when an image can't be pinned"
+  },
+  "optionTitle": {
+    "message": "Valg for Pin It-knappen",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "Skjul svevende Pin It-knapper",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  }
+}
