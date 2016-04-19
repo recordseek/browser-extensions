@@ -1,0 +1,42 @@
+{
+   "errorPin": {
+      "description": "The error message seen when an image can't be pinned",
+      "message": "Sorry, this site can't be sourced."
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Convert any website into a source citation, with virtually no effort."
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "RecordSeek"
+   },
+   "menuAction": {
+      "description": "Appears in the right of RecordSeek menu item",
+      "message": "RecordSeek"
+   },
+   "optionSessionText": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Do not store RecordSeek user session (Public computers)"
+   },
+   "optionSessionTitle": {
+      "description": "Title for the Options page",
+      "message": "RecordSeek Options"
+   },
+   "uninstallLink": {
+      "description": "The link (currently a help article) opened by clicking on the pop-up welcome message",
+      "message": "http://recordseek.com/browser-button/uninstalled"
+   },
+   "welcomeBody": {
+      "description": "Body of the pop-up welcome message",
+      "message": "With RecordSeek installed, you can click on any website to turn it into a source citation. If you need some extra help, click here to learn how easy it is to use."
+   },
+   "welcomeLink": {
+      "description": "The link (currently a help article) opened by clicking on the pop-up welcome message",
+      "message": "http://recordseek.com/browser-button/installed"
+   },
+   "welcomeTitle": {
+      "description": "Title of the pop-up welcome message",
+      "message": "RecordSeek for Chrome"
+   }
+}
