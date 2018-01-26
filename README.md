@@ -8,6 +8,9 @@
 `gulp BROWSER`, IE `gulp chrome`
 
 ## Build Location
-~/tmp/build - A scratch directory. Leave be.
-~/tmp/dev - Unpacked version of the built extensions
-~/tmp/dist - Packaged versions of the extensions
+- `~/tmp/build` 
+  - A scratch directory. Leave be.
+- `~/tmp/dev`
+  - Unpacked version of the built extensions
+- `~/tmp/dist` 
+  - Packaged versions of the extensions
