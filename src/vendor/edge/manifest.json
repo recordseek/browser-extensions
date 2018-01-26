@@ -1,0 +1,40 @@
+﻿{
+    "minimum_edge_version": "33.14281.1000.0",
+    "name": "{{name-full}}",
+    "short_name":  "{{name-short}}",
+    "description": "{{description}}",
+    "author": "{{author}}",
+    "version": "{{version}}",
+    "default_locale": "en",
+    "icons": {
+        "16": "img/icon-16.png",
+        "32": "img/icon-32.png",
+        "48": "img/icon-48.png",
+        "128": "img/icon-128.png"
+    },
+    "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+    "browser_action": {
+        "default_icon": {
+            "20": "img/icon-20.png",
+            "25": "img/icon-25.png",
+            "30": "img/icon-30.png",
+            "40": "img/icon-40.png"
+        },
+        "default_title": "{{name-full}}"
+    },
+    "background": {
+        "page": "html/background.html",
+        "persistent": false
+    },
+    "options_ui": {
+        "page": "html/options.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "http://*/*", "https://*/*" ],
+            "css": [],
+            "js": [ "js/browser.js", "lib/genscrape.min.js", "js/content.js" ]
+        }
+    ],
+    "web_accessible_resources": [ "js/*.*" ]
+}

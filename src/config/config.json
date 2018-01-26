@@ -1,0 +1,31 @@
+﻿{
+    "name-full": "RecordSeek",
+    "name-short": "RecordSeek",
+    "description": "Convert any website into a source citation, with virtually no effort.",
+    "author": "Dovy Paukstys",
+    "homepage": "https://recordseek.com",
+    "version": "2.5.0",
+    "vendor": {
+        "chrome": {
+            "package-id": "simplerain.recordseek"
+        },
+        "edge": {
+            "package-id": "simplerain.recordseek"
+        },
+        "firefox": {
+            "package-id": "simplerain.recordseek@example.com"
+        },
+        "opera": {
+            "package-id": "simplerain.recordseek"
+        },
+        "safari": {
+            "package-id": "simplerain.recordseek"
+        },
+        "vivaldi": {
+            "package-id": "simplerain.recordseek"
+        },
+        "yandex": {
+            "package-id": "simplerain.recordseek"
+        }
+    }
+}

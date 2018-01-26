@@ -1,0 +1,41 @@
+﻿{
+    "manifest_version": 2,
+    "applications": {
+        "gecko": {
+            "id": "{{vendor.firefox.package-id}}",
+            "strict_min_version": "45.0"
+        }
+    },
+    "name": "__MSG_extName__",
+    "description": "__MSG_extDescription__",
+    "version": "{{version}}",
+    "default_locale": "en",
+    "icons": {
+        "48": "img/icon-48.png",
+        "96": "img/icon-96.png"
+    },
+    "permissions": [ "tabs", "contextMenus", "http://*/*", "https://*/*", "cookies", "storage" ],
+    "browser_action": {
+        "default_icon": {
+            "18": "img/icon-18.png",
+            "32": "img/icon-32.png",
+            "36": "img/icon-36.png",
+            "64": "img/icon-64.png"
+        },
+        "default_title": "__MSG_menuAction__"
+    },
+    "background": {
+        "scripts": [ "js/background.js" ]
+    },
+    "options_ui": {
+        "page": "html/options.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "http://*/*", "https://*/*" ],
+            "css": [],
+            "js": [ "js/browser.js", "lib/genscrape.min.js", "js/content.js" ]
+        }
+    ],
+    "web_accessible_resources": [ "js/*.*" ]
+}
