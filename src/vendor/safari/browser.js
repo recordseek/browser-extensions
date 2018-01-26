@@ -8,10 +8,10 @@
     };
 
     app.newTab = function ($url) {
-        safari.extension.sendMessage({action: "newTab", url: $url});
+        chrome.extension.sendMessage({action: "newTab", url: $url, 'browser': app.browser.name});
     };
 
-    app.getVersion = function() {
+    app.getVersion = function () {
         return safari.runtime.getManifest()['version'];
     }
 

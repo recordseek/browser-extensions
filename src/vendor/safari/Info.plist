@@ -1,73 +1,89 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>Author</key>
-    <string>{{author}}</string>
-    <key>Builder Version</key>
-    <string>534.57.2</string>
-    <key>CFBundleDisplayName</key>
-    <string>{{name-full}}</string>
-    <key>CFBundleIdentifier</key>
-    <string>{{vendor.safari.package-id}}</string>
-    <key>CFBundleInfoDictionaryVersion</key>
-    <string>6.0</string>
-    <key>CFBundleShortVersionString</key>
-    <string>{{version}}</string>
-    <key>CFBundleVersion</key>
-    <string>{{version}}</string>
-    <key>Chrome</key>
-    <dict>
-      <key>Global Page</key>
-      <string>html/global.html</string>
-      <key>Toolbar Items</key>
-      <array>
-        <dict>
-          <key>Command</key>
-          <string>toolbarButtonCommand</string>
-          <key>Identifier</key>
-          <string>toolbar-button</string>
-          <key>Image</key>
-          <string>img/global.png</string>
-          <key>Label</key>
-          <string>{{name-full}}</string>
-          <key>Palette Label</key>
-          <string>{{name-full}}</string>
-          <key>Tool Tip</key>
-          <string>{{name-full}}</string>
-        </dict>
-      </array>
-    </dict>
-    <key>Content</key>
-    <dict>
-      <key>Scripts</key>
-      <dict>
-        <key>End</key>
-        <array>
-          <string>js/content.js</string>
-          <string>js/browser.js</string>
-          <string>lib/genscrape.min.js</string>
-        </array>
-      </dict>
-      <key>Stylesheets</key>
-      <array>
-      </array>
-    </dict>
-    <key>Description</key>
-    <string>{{description}}</string>
-    <key>ExtensionInfoDictionaryVersion</key>
-    <string>1.0</string>
-    <key>Permissions</key>
-    <dict>
-      <key>Website Access</key>
-      <dict>
-        <key>Include Secure Pages</key>
-        <true />
-        <key>Level</key>
-        <string>All</string>
-      </dict>
-    </dict>
-    <key>Website</key>
-    <string>{{homepage}}</string>
-  </dict>
+<dict>
+	<key>Author</key>
+	<string>Dovy Paukstys</string>
+	<key>Builder Version</key>
+	<string>13604.4.7.1.6</string>
+	<key>CFBundleDisplayName</key>
+	<string>RecordSeek</string>
+	<key>CFBundleIdentifier</key>
+	<string>simplerain.recordseek</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.5.0</string>
+	<key>CFBundleVersion</key>
+	<string>2.5.0</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>toolbarButtonCommand</string>
+				<key>Identifier</key>
+				<string>recordseek-menu</string>
+				<key>Title</key>
+				<string>RecordSeek</string>
+			</dict>
+		</array>
+		<key>Global Page</key>
+		<string>html/global.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>toolbarButtonCommand</string>
+				<key>Identifier</key>
+				<string>toolbar-button</string>
+				<key>Image</key>
+				<string>img/global.png</string>
+				<key>Label</key>
+				<string>RecordSeek</string>
+				<key>Palette Label</key>
+				<string>RecordSeek</string>
+				<key>Tool Tip</key>
+				<string>RecordSeek</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>js/content.js</string>
+				<string>js/browser.js</string>
+				<string>lib/genscrape.min.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>js/global.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array/>
+	</dict>
+	<key>Description</key>
+	<string>Convert any website into a source citation, with virtually no effort.</string>
+	<key>DeveloperIdentifier</key>
+	<string>473Y9542P2</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://recordseek.com</string>
+</dict>
 </plist>
