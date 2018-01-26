@@ -12,7 +12,7 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     if (tab.url.lastIndexOf("chrome://", 0) !== 0 &&
         tab.url.lastIndexOf("browser://", 0) !== 0 &&
         tab.url.lastIndexOf("opera://", 0) !== 0) {
-        chrome.tabs.executeScript(tab.id, {"code": "RecordSeek()"});
+        chrome.tabs.executeScript(null, {"code": "RecordSeek()"});
     }
 });
 
@@ -41,11 +41,15 @@ chrome.extension.onMessage.addListener(
                             );
                         }
                         var w = 800;
-                        var h = 650;
+                        var h = 680;
+                        if (request.browser && request.browser == "opera") {
+                            // Height fix for Opera
+                            h = 690;
+                        }
                         var left = (screen.width / 2) - (w / 2);
                         var top = (screen.height / 2) - (h / 2);
 
-                        chrome.storage.local.set( {'lastSource': new Date().getTime()} );
+                        chrome.storage.local.set({'lastSource': new Date().getTime()});
 
                         chrome.windows.create({
                             'url': request.url,

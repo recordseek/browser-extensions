@@ -182,7 +182,8 @@ gulp.task('opera-build', function () {
         pipe('./src/html/**/*', './tmp/build/opera/html'),
         pipe('./src/vendor/opera/browser.js', './tmp/build/opera/js'),
         pipe('./src/vendor/opera/background.js', './tmp/build/opera/js'),
-        pipe('./src/vendor/opera/manifest.json', './tmp/build/opera')
+        pipe('./src/vendor/opera/manifest.json', './tmp/build/opera'),
+        pipe('./src/_locales/en/messages.json', './tmp/build/opera/_locales/en')
     );
 });
 
@@ -200,7 +201,8 @@ gulp.task('safari-build', function () {
         pipe('./src/vendor/safari/Settings.plist', './tmp/build/safari'),
         pipe('./src/img/icon-16.png', './tmp/build/safari'),
         pipe('./src/img/icon-32.png', './tmp/build/safari'),
-        pipe('./src/img/icon-64.png', './tmp/build/safari')
+        pipe('./src/img/icon-64.png', './tmp/build/safari'),
+        pipe('./src/_locales/en/messages.json', './tmp/build/safari/_locales/en')
     );
 });
 
@@ -212,7 +214,8 @@ gulp.task('vivaldi-build', function () {
         pipe('./src/html/**/*', './tmp/build/vivaldi/html'),
         pipe('./src/vendor/vivaldi/browser.js', './tmp/build/vivaldi/js'),
         pipe('./src/vendor/vivaldi/background.js', './tmp/build/vivaldi/js'),
-        pipe('./src/vendor/vivaldi/manifest.json', './tmp/build/vivaldi')
+        pipe('./src/vendor/vivaldi/manifest.json', './tmp/build/vivaldi'),
+        pipe('./src/_locales/en/messages.json', './tmp/build/vivaldi/_locales/en')
     );
 });
 
@@ -224,7 +227,8 @@ gulp.task('yandex-build', function () {
         pipe('./src/html/**/*', './tmp/build/yandex/html'),
         pipe('./src/vendor/yandex/browser.js', './tmp/build/yandex/js'),
         pipe('./src/vendor/yandex/background.js', './tmp/build/yandex/js'),
-        pipe('./src/vendor/yandex/manifest.json', './tmp/build/yandex')
+        pipe('./src/vendor/yandex/manifest.json', './tmp/build/yandex'),
+        pipe('./src/_locales/en/messages.json', './tmp/build/yandex/_locales/en')
     );
 });
 

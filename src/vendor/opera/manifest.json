@@ -33,5 +33,5 @@
             "js": [ "js/browser.js", "lib/genscrape.min.js", "js/content.js" ]
         }
     ],
-    "web_accessible_resources": [ "js/*.*" ],
+    "web_accessible_resources": [ "js/*.*" ]
 }
