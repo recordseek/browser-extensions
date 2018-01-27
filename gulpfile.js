@@ -153,11 +153,10 @@ gulp.task('edge-build', function () {
         pipe('./src/js/**/*', './tmp/build/edge/js'),
         pipe('./src/html/**/*', './tmp/build/edge/html'),
         pipe('./src/vendor/edge/browser.js', './tmp/build/edge/js'),
-        pipe('./src/vendor/edge/background.html', './tmp/build/edge/html'),
         pipe('./src/vendor/edge/background.js', './tmp/build/edge/js'),
         pipe('./src/vendor/edge/manifest.json', './tmp/build/edge'),
         pipe('./src/vendor/edge/options.js', './tmp/build/edge/js'),
-        pipe('./src/_locales/en/messages.json', './tmp/build/chrome/_locales/en')
+        pipe('./src/_locales/en/messages.json', './tmp/build/edge/_locales/en')
     );
 });
 
@@ -271,7 +270,7 @@ gulp.task('edge-config-copy', function () {
 });
 
 gulp.task('edge-config-replace', function () {
-    return gulp.src(['./tmp/build/edge/**/*.js', './build/edge/**/*.json', './build/edge/**/*.html'])
+    return gulp.src(['./tmp/build/edge/**/*.js', './tmp/build/edge/**/*.json', './tmp/build/edge/**/*.html'])
         .pipe(replace({global: config}))
         .pipe(gulp.dest('./tmp/dev/edge'));
 });

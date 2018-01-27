@@ -12,7 +12,7 @@
     // Browser-Specific Implementations
 
     app.browser = {
-        name: "opera"
+        name: "yandex"
     };
 
     app.newTab = function ($url) {

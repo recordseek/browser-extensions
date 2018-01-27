@@ -1,15 +1,20 @@
-if (typeof chrome == "undefined" || typeof chrome.runtime == "undefined")
-    chrome = browser;
+browser = (function () {
+    if (typeof msBrowser !== "undefined")
+        return msBrowser;
+    if (typeof browser !== "undefined")
+        return browser;
+    return chrome;
+})();
 
 function update() {
     var hazChecked = document.getElementById( 'forgetUserSession' ).checked;
-    chrome.storage.local.set(
+    browser.storage.local.set(
         {
             RecordSeek: {forgetUserSession: hazChecked}
         }, function() {
             var display = document.getElementById( 'display' );
             display.innerHTML = "\u2713";
-            chrome.runtime.sendMessage(
+            browser.runtime.sendMessage(
                 {'logAction': '&event=preferences&forgetUserSession=' + hazChecked}, function() {
                 }
             );
@@ -25,11 +30,11 @@ function update() {
 function show() {
 
     document.getElementById( 'forgetUserSession' ).addEventListener( 'click', update );
-    document.getElementById( 'optionSession' ).innerHTML = chrome.i18n.getMessage( "optionSessionText" );
-    document.getElementById( 'optionTitle' ).innerHTML = chrome.i18n.getMessage( "optionSessionTitle" );
-    document.title = chrome.i18n.getMessage( "optionTitle" );
+    document.getElementById( 'optionSession' ).innerHTML = browser.i18n.getMessage( "optionSessionText" );
+    document.getElementById( 'optionTitle' ).innerHTML = browser.i18n.getMessage( "optionSessionTitle" );
+    document.title = browser.i18n.getMessage( "optionTitle" );
 
-    chrome.storage.local.get(
+    browser.storage.local.get(
         {
             RecordSeek: 'forgetUserSession'
         }, function( items ) {

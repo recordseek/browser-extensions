@@ -1,18 +1,26 @@
-﻿;(function (window) {
+﻿browser = (function () {
+    if (typeof msBrowser !== "undefined")
+        return msBrowser;
+    if (typeof browser !== "undefined")
+        return browser;
+    return chrome;
+})();
+
+(function (window) {
     var app = window.app = window.app || {};
 
     // Browser-Specific Implementations
 
     app.browser = {
-        name: "safari"
+        name: "vivaldi"
     };
 
     app.newTab = function ($url) {
-        chrome.extension.sendMessage({action: "newTab", url: $url, 'browser': app.browser.name});
+        browser.runtime.sendMessage({action: "newTab", url: $url, 'browser': app.browser.name});
     };
 
     app.getVersion = function () {
-        return safari.runtime.getManifest()['version'];
+        return browser.runtime.getManifest()['version'];
     }
 
     // Browser-Unique Functionality

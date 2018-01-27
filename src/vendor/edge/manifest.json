@@ -12,7 +12,7 @@
         "48": "img/icon-48.png",
         "128": "img/icon-128.png"
     },
-    "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+    "permissions": [ "tabs", "contextMenus", "http://*/*", "https://*/*", "cookies", "storage" ],
     "browser_action": {
         "default_icon": {
             "20": "img/icon-20.png",
@@ -23,12 +23,13 @@
         "default_title": "{{name-full}}"
     },
     "background": {
-        "page": "html/background.html",
+        "scripts": [
+            "js/background.js",
+            "js/app.js"
+        ],
         "persistent": false
     },
-    "options_ui": {
-        "page": "html/options.html"
-    },
+    "options_page": "html/options.html",
     "content_scripts": [
         {
             "matches": [ "http://*/*", "https://*/*" ],

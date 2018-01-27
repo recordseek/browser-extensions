@@ -1,4 +1,4 @@
-﻿browser = (function () {
+browser = (function () {
     if (typeof msBrowser !== "undefined")
         return msBrowser;
     if (typeof browser !== "undefined")
@@ -12,7 +12,7 @@
     // Browser-Specific Implementations
 
     app.browser = {
-        name: "opera"
+        name: "vivaldi"
     };
 
     app.newTab = function ($url) {
