@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Dovy Paukstys</string>
 	<key>Builder Version</key>
-	<string>13604.4.7.1.6</string>
+	<string>13605.1.33.1.2</string>
 	<key>CFBundleDisplayName</key>
 	<string>RecordSeek</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.5.0</string>
+	<string>{{version}}</string>
 	<key>CFBundleVersion</key>
-	<string>2.5.0</string>
+	<string>{{version}}</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Context Menu Items</key>
@@ -39,7 +39,7 @@
 				<key>Identifier</key>
 				<string>toolbar-button</string>
 				<key>Image</key>
-				<string>img/global.png</string>
+				<string>safari-toolbar.png</string>
 				<key>Label</key>
 				<string>RecordSeek</string>
 				<key>Palette Label</key>
@@ -55,13 +55,9 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>js/content.js</string>
-				<string>js/browser.js</string>
 				<string>lib/genscrape.min.js</string>
-			</array>
-			<key>Start</key>
-			<array>
-				<string>js/global.js</string>
+				<string>js/browser.js</string>
+				<string>js/content.js</string>
 			</array>
 		</dict>
 		<key>Stylesheets</key>

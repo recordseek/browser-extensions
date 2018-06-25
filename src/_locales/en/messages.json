@@ -29,10 +29,10 @@
   },
   "welcomeLink": {
     "description": "The link (currently a help article) opened by clicking on the pop-up welcome message",
-    "message": "http://recordseek.com/browser-button/installed"
+    "message": "http://recordseek.com/getting-started"
   },
   "welcomeTitle": {
     "description": "Title of the pop-up welcome message",
-    "message": "RecordSeek for Chrome"
+    "message": "You've Installed RecordSeek!"
   }
 }

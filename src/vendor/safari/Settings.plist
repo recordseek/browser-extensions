@@ -4,13 +4,9 @@
 <array>
 	<dict>
 		<key>DefaultValue</key>
-		<string>false</string>
+		<string>0</string>
 		<key>Key</key>
-		<string>forgetUserSession</string>
-		<key>Title</key>
-		<string>Do not store RecordSeek user session (Public computers)</string>
-		<key>Type</key>
-		<string>CheckBox</string>
+		<string>hasBeenWelcomed</string>
 	</dict>
 </array>
 </plist>
