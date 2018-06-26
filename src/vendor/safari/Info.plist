@@ -79,6 +79,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+  <string>https://recordseek.com/assets/addons/safari-update-manifest.plist</string>
 	<key>Website</key>
 	<string>https://recordseek.com</string>
 </dict>

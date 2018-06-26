@@ -30,8 +30,8 @@ function update() {
 function show() {
 
     document.getElementById( 'forgetUserSession' ).addEventListener( 'click', update );
-    document.getElementById( 'optionSession' ).innerHTML = browser.i18n.getMessage( "optionSessionText" );
-    document.getElementById( 'optionTitle' ).innerHTML = browser.i18n.getMessage( "optionSessionTitle" );
+    document.getElementById( 'optionSession' ).textContent = browser.i18n.getMessage( "optionSessionText" );
+    document.getElementById( 'optionTitle' ).textContent = browser.i18n.getMessage( "optionSessionTitle" );
     document.title = browser.i18n.getMessage( "optionTitle" );
 
     browser.storage.local.get(
